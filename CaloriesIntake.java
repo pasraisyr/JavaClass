@@ -8,7 +8,7 @@ public class CaloriesIntake {
         int startingCalories = 1200; 
 
         for (int i = 0; i < 7; i++) {
-            calories[i] = startingCalories + (i * 100);
+            calories[i] = startingCalories + (i*100);
             System.out.println(days[i] + ": " + calories[i] + " calories");
             totalCalories += calories[i]; 
         }
