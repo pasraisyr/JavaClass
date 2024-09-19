@@ -34,17 +34,17 @@ public class CarUsage {
         };
 
         
-        Car[] cars = new Car[carData.length];
+        CarUsage[] cars = new CarUsage[carData.length];
 
         
         for (int i = 0; i < carData.length; i++) {
             String carName = (String) carData[i][0];   
             double fuel = (double) carData[i][1];     
-            cars[i] = new Car(carName, fuel);          
+            cars[i] = new CarUsage(carName, fuel);          
         }
 
    
-        for (Car car : cars) {
+        for (CarUsage car : cars) {
             switch (car.getCarName()) {
                 case "Honda":
                 case "Proton":
