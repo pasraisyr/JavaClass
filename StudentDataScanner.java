@@ -11,7 +11,7 @@ public class StudentDataScanner {
             System.out.println("Enter Student's Name " + (i + 1) + ": ");
             String name = scanner.nextLine();
 
-            System.out.println("Enter Math score " + name + ": ");
+            System.out.println("Enter " + name +"'s" +" " +"score"+ ": ");
             int math = scanner.nextInt();
 
             System.out.println("Enter Science score for " + name + ": ");
