@@ -5,7 +5,7 @@ public class StudentDataScanner {
         Scanner scanner = new Scanner(System.in);
 
        
-        StudentScanner[] students = new StudentScanner[5];
+        StudentScanner[] students = new StudentScanner[2];
 
         for (int i = 0; i < students.length; i++) {
             System.out.println("Enter Student's Name " + (i + 1) + ": ");

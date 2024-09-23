@@ -49,10 +49,10 @@ public class StudentScanner {
     
     public void displayStudentInfo() {
         System.out.println("Student Name: " + getName());
-        System.out.println("Math Score: " + scores[0]);
-        System.out.println("Science Score: " + scores[1]);
-        System.out.println("English Score: " + scores[2]);
-        System.out.println("Average Score: " + calcAvr());
-        System.out.println("Grade: " + assignGrade());
+        //System.out.println( getName()+"'s"+" "+"Mathematic Score: " + scores[0]);
+        //System.out.println( getName()+"'s"+" "+"Science Score: " + scores[1]);
+        //System.out.println( getName()+"'s"+" "+"English Score: " + scores[2]);
+        System.out.println(getName()+"'s"+" "+"Average Score: " + calcAvr());
+        System.out.println(getName()+"'s"+" "+"Grade: " + assignGrade());
     }
 }
