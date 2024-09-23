@@ -11,13 +11,13 @@ public class StudentDataScanner {
             System.out.println("Enter Student's Name " + (i + 1) + ": ");
             String name = scanner.nextLine();
 
-            System.out.println("Enter " + name +"'s" +" " +"score"+ ": ");
+            System.out.println("Enter " + name +"'s" +" " +"Mathematics score"+ ": ");
             int math = scanner.nextInt();
 
-            System.out.println("Enter Science score for " + name + ": ");
+            System.out.println("Enter " + name +"'s" +" " +"Science score"+ ": ");
             int science = scanner.nextInt();
 
-            System.out.println("Enter English score for " + name + ": ");
+            System.out.println("Enter " + name +"'s" +" " +"English score"+ ": ");
             int english= scanner.nextInt();
             scanner.nextLine(); 
 
