@@ -33,7 +33,7 @@ public class StudentScanner {
 
     
     public char assignGrade() {
-        if (this.avrgScore >= 90) {
+        if (this.avrgScore >= 90 && this.avrgScore <= 100) {
             return 'A';
         } else if (this.avrgScore >= 80) {
             return 'B';

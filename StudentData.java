@@ -66,7 +66,7 @@ public class StudentData {
         
         Student[] students = new Student[5];
 
-        students[0] = new Student("Radaiatul", 85, 78, 92);
+        students[0] = new Student("Radiatul", 85, 78, 92);
         students[1] = new Student("Aisyah", 90, 88, 91);
         students[2] = new Student("Abdullah", 60, 65, 70);
         students[3] = new Student("Pasraisy", 72, 76, 80);
