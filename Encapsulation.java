@@ -26,5 +26,5 @@ public class Encapsulation {
         System.out.println(person.getName()+ " "+"is" +" "+ person.getAge()+" "+"years old");
     }
 
-    
+
 }
